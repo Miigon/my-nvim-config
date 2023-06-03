@@ -19,7 +19,7 @@ Plug 'https://github.com/tpope/vim-surround'
 Plug 'easymotion/vim-easymotion', Cond(!exists('g:vscode'))
 " use VSCode easymotion when in VSCode mode
 Plug 'asvetliakov/vim-easymotion', Cond(exists('g:vscode'), { 'as': 'vsc-easymotion' })
-Plug 'Mofiqul/vscode.nvim'
+Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
 call plug#end()
 
 " ===== additional configs ===== "

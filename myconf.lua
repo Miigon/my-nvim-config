@@ -1,9 +1,7 @@
 
 vim.o.background = 'dark'
 
-
-local isVsCode = require('vscode').setup == nil -- otherwise require vscode will return the theme
-if not isVsCode then
+if not vim.fn.exists('g:vscode') then
     local c = require('vscode.colors').get_colors()
 
     require('vscode').setup({
