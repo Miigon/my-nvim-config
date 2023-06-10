@@ -20,6 +20,7 @@ Plug 'easymotion/vim-easymotion', Cond(!exists('g:vscode'))
 " use VSCode easymotion when in VSCode mode
 Plug 'asvetliakov/vim-easymotion', Cond(exists('g:vscode'), { 'as': 'vsc-easymotion' })
 Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
+Plug 'tpope/vim-sleuth'
 call plug#end()
 
 " ===== additional configs ===== "
