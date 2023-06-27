@@ -21,6 +21,7 @@ Plug 'easymotion/vim-easymotion', Cond(!exists('g:vscode'))
 Plug 'asvetliakov/vim-easymotion', Cond(exists('g:vscode'), { 'as': 'vsc-easymotion' })
 Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
 Plug 'tpope/vim-sleuth'
+Plug 'wellle/targets.vim'
 call plug#end()
 
 " ===== additional configs ===== "
