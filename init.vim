@@ -22,6 +22,7 @@ Plug 'asvetliakov/vim-easymotion', Cond(exists('g:vscode'), { 'as': 'vsc-easymot
 Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
 Plug 'tpope/vim-sleuth'
 Plug 'wellle/targets.vim'
+Plug 'bkad/CamelCaseMotion'
 call plug#end()
 
 " ===== additional configs ===== "
