@@ -13,3 +13,6 @@ noremap gh :noh<CR>
 noremap <leader>p "0p
 
 let g:wordmotion_prefix = '<leader>'
+
+" go surround with quotes
+map gs ys
