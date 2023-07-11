@@ -10,6 +10,8 @@ function! Cond(Cond, ...)
   return a:Cond ? opts : extend(opts, { 'on': [], 'for': [] })
 endfunction
 
+call SourceIfExists( stdpath("config") . "/rc_before_plugin.vim" )
+
 " ===== plugins ===== "
 call plug#begin(stdpath('data') . '/plugged')
 " Plug 'https://github.com/tpope/vim-commentary'
