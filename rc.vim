@@ -8,7 +8,7 @@ set shiftwidth=4
 
 tnoremap <C-w> <C-\><C-N><C-w>
 
-noremap gg :noh<CR>
+noremap <leader>h :noh<CR>
 
 noremap <leader>p "0p
 noremap <leader>P "0P
