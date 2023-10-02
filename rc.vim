@@ -31,3 +31,6 @@ nnoremap gP "+P
 vnoremap gp "+p
 vnoremap gP "+P
 
+omap <tab>s S
+xmap <tab>s S
+nmap <tab>s S
