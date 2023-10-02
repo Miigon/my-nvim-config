@@ -31,9 +31,3 @@ nnoremap gP "+P
 vnoremap gp "+p
 vnoremap gP "+P
 
-noremap <leader>f :HopChar1<CR>
-noremap <leader>j :HopLineStartAC<CR>
-noremap <leader>k :HopLineStartBC<CR>
-noremap <leader>/ :HopPattern<CR>
-noremap <leader>w :HopWord<CR>
-
