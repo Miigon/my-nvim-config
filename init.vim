@@ -17,10 +17,7 @@ call plug#begin(stdpath('data') . '/plugged')
 " Plug 'https://github.com/tpope/vim-commentary'
 Plug 'tomtom/tcomment_vim'
 Plug 'https://github.com/tpope/vim-surround'
-" use normal easymotion when in VIM mode
-Plug 'easymotion/vim-easymotion', Cond(!exists('g:vscode'))
-" use VSCode easymotion when in VSCode mode
-Plug 'asvetliakov/vim-easymotion', Cond(exists('g:vscode'), { 'as': 'vsc-easymotion' })
+Plug 'ggandor/leap.nvim'
 Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
 Plug 'tpope/vim-sleuth'
 Plug 'wellle/targets.vim'

@@ -15,3 +15,5 @@ if not vim.g.vscode then
     })
     require('vscode').load()
 end
+
+require('leap').add_default_mappings()
