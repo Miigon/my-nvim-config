@@ -1,6 +1,7 @@
 
 vim.o.background = 'dark'
 
+
 if not vim.g.vscode then
     local c = require('vscode.colors').get_colors()
 
@@ -17,3 +18,4 @@ if not vim.g.vscode then
 end
 
 require('leap').add_default_mappings()
+require("nvim-surround").setup()

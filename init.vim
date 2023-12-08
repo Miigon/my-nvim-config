@@ -16,11 +16,12 @@ call SourceIfExists( stdpath("config") . "/rc_before_plugin.vim" )
 call plug#begin(stdpath('data') . '/plugged')
 " Plug 'https://github.com/tpope/vim-commentary'
 Plug 'tomtom/tcomment_vim'
-Plug 'https://github.com/tpope/vim-surround'
+" Plug 'https://github.com/tpope/vim-surround'
+Plug 'kylechui/nvim-surround'
 Plug 'ggandor/leap.nvim'
 Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
-Plug 'tpope/vim-sleuth'
-Plug 'wellle/targets.vim'
+Plug 'tpope/vim-sleuth' " for setting tab width heuristically
+" Plug 'wellle/targets.vim'
 Plug 'chaoren/vim-wordmotion'
 call plug#end()
 
