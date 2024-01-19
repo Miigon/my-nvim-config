@@ -7,6 +7,11 @@ set tabstop=4
 set shiftwidth=4
 
 tnoremap <C-w> <C-\><C-N><C-w>
+" switch between splits with ctrl-hjkl
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
 
 noremap <leader>h :noh<CR>
 
