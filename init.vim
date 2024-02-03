@@ -23,7 +23,9 @@ Plug 'Mofiqul/vscode.nvim', Cond(!exists('g:vscode'))
 Plug 'tpope/vim-sleuth' " for setting tab width heuristically
 " Plug 'wellle/targets.vim'
 Plug 'chaoren/vim-wordmotion'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
+
 
 " ===== additional configs ===== "
 lua << EOF

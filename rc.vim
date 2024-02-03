@@ -39,3 +39,6 @@ vnoremap gP "+P
 omap <tab>s S
 xmap <tab>s S
 nmap <tab>s S
+
+" Floaterm keybinds
+map gt :FloatermToggle<CR>
